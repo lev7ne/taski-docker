@@ -15,7 +15,7 @@ services:
     restart: always
     env_file: .env
     volumes:
-      - static_volume:/backend_static
+      - static_volume:/app/collected_static
     depends_on:
       - db
 
